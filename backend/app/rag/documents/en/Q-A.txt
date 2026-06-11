@@ -1,0 +1,39 @@
+What is the “Add More Courses” option for?
+It's a button that will redirect you to our website so you can purchase other courses from our catalog that interest you.
+Where can I find the course I purchased?
+You'll find all the courses you purchase in the “My Courses” section.
+I’ve passed all the intermediate challenges (midterm exams). Do I have to take the final challenge (final exam)? (Only for courses with multiple challenges).
+No, if you pass all the intermediate challenges on your first attempt at each one, you won’t have to take the final challenge.
+I’m in a course, but I want to switch to another one I’ve already purchased. How do I do that?
+By clicking on the “My Courses” button, you’ll access the section where you’ll see the full list of courses you’ve purchased.
+What is a level?
+Course content is organized into “levels,” which are similar in nature to modules on traditional educational platforms. In other words, they are elements that contain content: videos, books, and challenges (exams). Some courses have a single level, while others have multiple levels.
+I have been awarded the certificate of attendance; what does this mean?
+If a student does not pass (on their second attempt) the single challenge (exam) in their course, or—in courses with multiple challenges—the final challenge (final exam), they will be issued a certificate attesting to their attendance in the course.
+What is a challenge?
+“Challenges,” is what we call exams. There may be “intermediate challenges,” which traditional educational platforms would refer to as “midterms.”
+When do I take the exam?
+If your course has one or more challenges (exams), they will always appear at the end of each level for courses with multiple intermediate challenges, or at the end of all the content for courses with only a single challenge.
+I need help—who can I contact?
+If you click on “Support,” you’ll find a section titled “Report an Issue.” By filling out a short form there, you can send us any concerns you may have.
+What does the bar at the bottom with a small flag at the end mean?
+It’s the progress bar, which shows your progress through the course. It will fill up as you view the different content.
+In the challenges (exams), do wrong answers deduct points from the final grade?
+No, wrong answers do not deduct points. They simply do not count toward the score.
+At the end of a level, I see an icon that looks like a document. What does it mean?
+It’s the icon representing the challenges, which are the exams you’ll take to assess the knowledge you’ve acquired and earn a course certificate.
+“Tile” view and “List” view.
+Our platform offers two ways to organize the view of the content that makes up a course level: <ul><li>
+Tile view: content is displayed in tiles, forming a sort of path to follow.</li> <li>List view: content at a given level is displayed in a list with a brief description of each item in the margin.</li></ul> You can select the view you want right next to the level selector.
+Why is only the first course module available to me, and the others appear locked?
+Course modules are displayed sequentially, so they will unlock as you complete the preceding ones. In other words, to unlock module #3, you must have previously completed the first two.
+I’ve earned a Certificate of Excellence—what does that mean?
+This badge is awarded to students who pass a course with a single challenge (a single exam) on their first attempt, or to those who pass all intermediate challenges (all midterm exams) on their first attempt in courses with multiple challenges.
+How do I change levels?
+Throughout the course, you’ll move up in level as you complete the challenges you encounter. But if you’ve already reached the highest level, you can start using the tools that come with it.
+I failed a single intermediate challenge (midterm exam), but passed the rest. Do I have to take the final challenge (final exam)? (Only for courses with multiple challenges).
+Yes, if you don't pass an intermediate challenge (midterm exam), you'll have to take the final challenge (final exam).
+I’ve received a certificate of completion. What does that mean?
+The certificate of completion is awarded to students after they pass, on their second attempt, a course with a single challenge (courses with a single exam) or after they pass the final challenge (the final exam) of a course with several intermediate challenges (multiple midterms).
+In the final challenge (final exam), are questions asked about all levels of my course?
+Yes, the final challenge covers all levels of a course, along with their respective content.

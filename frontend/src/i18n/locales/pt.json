@@ -1,0 +1,66 @@
+{
+  "chat": {
+    "title": "Assistente Virtual",
+    "subtitle": "Online",
+    "inputPlaceholder": "Digite uma mensagem...",
+    "send": "Enviar",
+    "typing": "Digitando...",
+    "connecting": "Conectando...",
+    "disconnected": "Desconectado",
+    "reconnecting": "Reconectando...",
+    "error": "Erro ao enviar mensagem",
+    "retry": "Tentar novamente",
+    "clear": "Limpar chat",
+    "close": "Fechar",
+    "minimize": "Minimizar"
+  },
+  "voice": {
+    "recording": "Gravando...",
+    "clickToRecord": "Clique para gravar",
+    "holdToRecord": "Segure para gravar",
+    "release": "Solte para enviar",
+    "cancel": "Cancelar",
+    "error": "Erro ao gravar áudio",
+    "permissionDenied": "Permissão de microfone negada",
+    "notSupported": "Seu navegador não suporta gravação de áudio"
+  },
+  "notifications": {
+    "newMessage": "Nova mensagem",
+    "permissionRequest": "Permitir notificações?",
+    "enabled": "Notificações ativadas",
+    "disabled": "Notificações desativadas"
+  },
+  "errors": {
+    "network": "Erro de conexão. Verifique sua internet.",
+    "server": "Erro do servidor. Tente mais tarde.",
+    "unknown": "Ocorreu um erro inesperado.",
+    "timeout": "A solicitação demorou muito."
+  },
+  "welcome": {
+    "title": "Olá! 👋",
+    "message": "Sou seu assistente virtual. Como posso ajudá-lo hoje?",
+    "suggestions": [
+      "O que você pode fazer?",
+      "Preciso de ajuda",
+      "Informações do produto"
+    ]
+  },
+  "settings": {
+    "language": "Idioma",
+    "notifications": "Notificações",
+    "sound": "Som",
+    "clearHistory": "Limpar histórico"
+  },
+  "common": {
+    "yes": "Sim",
+    "no": "Não",
+    "ok": "OK",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "save": "Salvar",
+    "loading": "Carregando...",
+    "retry": "Tentar novamente"
+  }
+}

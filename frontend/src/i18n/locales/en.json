@@ -1,0 +1,66 @@
+{
+  "chat": {
+    "title": "Virtual Assistant",
+    "subtitle": "Online",
+    "inputPlaceholder": "Type a message...",
+    "send": "Send",
+    "typing": "Typing...",
+    "connecting": "Connecting...",
+    "disconnected": "Disconnected",
+    "reconnecting": "Reconnecting...",
+    "error": "Error sending message",
+    "retry": "Retry",
+    "clear": "Clear chat",
+    "close": "Close",
+    "minimize": "Minimize"
+  },
+  "voice": {
+    "recording": "Recording...",
+    "clickToRecord": "Click to record",
+    "holdToRecord": "Hold to record",
+    "release": "Release to send",
+    "cancel": "Cancel",
+    "error": "Error recording audio",
+    "permissionDenied": "Microphone permission denied",
+    "notSupported": "Your browser doesn't support audio recording"
+  },
+  "notifications": {
+    "newMessage": "New message",
+    "permissionRequest": "Allow notifications?",
+    "enabled": "Notifications enabled",
+    "disabled": "Notifications disabled"
+  },
+  "errors": {
+    "network": "Connection error. Check your internet.",
+    "server": "Server error. Try again later.",
+    "unknown": "An unexpected error occurred.",
+    "timeout": "Request timed out."
+  },
+  "welcome": {
+    "title": "Hello! 👋",
+    "message": "I'm your virtual assistant. How can I help you today?",
+    "suggestions": [
+      "What can you do?",
+      "I need help",
+      "Product information"
+    ]
+  },
+  "settings": {
+    "language": "Language",
+    "notifications": "Notifications",
+    "sound": "Sound",
+    "clearHistory": "Clear history"
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "save": "Save",
+    "loading": "Loading...",
+    "retry": "Retry"
+  }
+}

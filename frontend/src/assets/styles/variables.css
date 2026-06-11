@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #2196f3;
+  --color-error: #f44336;
+  --color-text: #212121;
+  --color-bg: #2e8ca6;
+  --spacing-md: 1rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --z-modal: 1050;
+  --widget-width: 380px;
+  --widget-height: 600px;
+  --widget-bubble-size: 60px;
+}
