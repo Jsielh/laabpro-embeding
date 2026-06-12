@@ -1,4 +1,4 @@
-FROM node:20-slim AS frontend-builder
+FROM node:22-slim AS frontend-builder
 RUN corepack enable
 WORKDIR /app/frontend
 COPY frontend/package.json frontend/pnpm-lock.yaml ./
