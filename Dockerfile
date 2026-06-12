@@ -1,10 +1,9 @@
 FROM node:22-slim AS frontend-builder
-RUN corepack enable
 WORKDIR /app/frontend
-COPY frontend/package.json frontend/pnpm-lock.yaml frontend/.npmrc ./
-RUN pnpm install --frozen-lockfile
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci
 COPY frontend/ .
-RUN pnpm exec vite build
+RUN npx vite build
 
 FROM python:3.11-slim
 WORKDIR /app
