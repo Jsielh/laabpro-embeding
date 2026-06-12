@@ -5,5 +5,5 @@ services:
     region: ohio
     plan: free
     branch: main
-    buildCommand: npm install -g pnpm && cd frontend && pnpm install && pnpm vite build && cd ../backend && pip install -r requirements.txt
+    buildCommand: corepack enable && cd frontend && pnpm install && pnpm exec vite build && cd ../backend && pip install -r requirements.txt
     startCommand: cd backend && uvicorn app.main:app --host 0.0.0.0 --port $PORT
