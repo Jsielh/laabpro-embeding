@@ -36,11 +36,11 @@ jsonschema-specifications==2025.9.1
 kubernetes==35.0.0
 langchain==0.3.27
 langchain-chroma==0.2.4
-langchain-core==0.3.83
-langchain-mcp-adapters>=0.1.0
+langchain-core==0.3.40
+langchain-mcp-adapters==0.1.0
 langchain-openai==0.2.14
 langchain-text-splitters==0.3.11
-langgraph>=0.2.0
+langgraph==0.2.0
 langsmith==0.7.7
 mcp>=1.0.0
 markdown-it-py==4.0.0
