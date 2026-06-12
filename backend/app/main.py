@@ -23,7 +23,7 @@ app.include_router(chat.router)
 app.include_router(documents.router)
 
 
-widget_dist = Path(__file__).resolve().parent.parent.parent / "frontend" / "dist"
+widget_dist = Path(__file__).resolve().parent.parent / "frontend" / "dist"
 if widget_dist.exists():
     app.mount("/widget", StaticFiles(directory=str(widget_dist)), name="widget")
 
