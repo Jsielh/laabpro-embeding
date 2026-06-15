@@ -1,13 +1,17 @@
 from pathlib import Path
+import logging
 
 from pydantic import BaseModel
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
 from app.rag.rag_system import create_agent_locale
 from app.constants import CORS_CONFIG, INFO_MESSAGES
 from app.api import chat, documents
+
+logger = logging.getLogger(__name__)
 
 app = FastAPI(title="LaabPro Agent API", version="1.0.0")
 
@@ -24,8 +28,21 @@ app.include_router(documents.router)
 
 
 widget_dist = Path(__file__).resolve().parent.parent / "frontend" / "dist"
+logger.info("Widget dist path: %s | exists: %s", widget_dist, widget_dist.exists())
+
 if widget_dist.exists():
     app.mount("/widget", StaticFiles(directory=str(widget_dist)), name="widget")
+    logger.info("Static files mounted at /widget")
+else:
+    logger.warning("Widget dist NOT FOUND at %s", widget_dist)
+
+
+@app.get("/widget/laabpro-widget.js")
+async def serve_widget_js():
+    widget_path = widget_dist / "laabpro-widget.js"
+    if not widget_path.exists():
+        raise HTTPException(status_code=404, detail="Widget JS not found")
+    return FileResponse(widget_path, media_type="application/javascript")
 
 class QueryRequest(BaseModel):
     query: str
