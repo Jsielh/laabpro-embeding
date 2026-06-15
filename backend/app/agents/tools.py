@@ -23,11 +23,11 @@ def make_retrieve_context(locale: str):
 
 
 async def inject_org_id(request: MCPToolCallRequest, handler):
-    if request.name.startswith("ZohoDesk_") and settings.ZOHO_DESK_ORG_ID is not None:
+    if request.name.startswith("ZohoDesk_"):
         query_params = {**request.args.get("query_params", {}), "orgId": int(settings.ZOHO_DESK_ORG_ID)}
         args = {**request.args, "query_params": query_params}
 
-        if request.name == "ZohoDesk_createTicket" and settings.ZOHO_DESK_DEPARTMENT_ID is not None:
+        if request.name == "ZohoDesk_createTicket":
             body = request.args.get("body", {})
             body.pop("contactId", None)
             body.pop("departmentId", None)
@@ -39,8 +39,6 @@ async def inject_org_id(request: MCPToolCallRequest, handler):
 
 
 async def load_zoho_tools():
-    if not settings.ZOHO_MCP_SERVER_URL:
-        return []
     client = MultiServerMCPClient(
         {
             "zoho_desk": {

@@ -9,9 +9,9 @@ class Settings(BaseSettings):
     CHROMA_API_KEY: str
     CHROMA_TENANT: str
     CHROMA_DATABASE: str
-    ZOHO_MCP_SERVER_URL: str | None = None
-    ZOHO_DESK_ORG_ID: int | None = None
-    ZOHO_DESK_DEPARTMENT_ID: int | None = None
+    ZOHO_MCP_SERVER_URL: str
+    ZOHO_DESK_ORG_ID: int
+    ZOHO_DESK_DEPARTMENT_ID: int
     OCR_ENABLED: bool = True
 
     class Config:
